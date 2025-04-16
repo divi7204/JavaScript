@@ -1,0 +1,132 @@
+1. What is JavaScript?  
+JavaScript is the programming language.
+
+
+2. Where we use JavaScript?
+JavaScript is used to develop web mainly. It also used to develop web/networking, real time networking, 
+command tools and gaming.
+
+3.Where does JavaScript code run?
+It used to run only in server. In 2009, node is used to run the JavaScript using the googles v8 server.
+
+
+4.What is difference between JS and ECMA script?
+ECMA script is the standard document where it will define the rules needs to be followed.
+JavaScript will follow the ECMA script and adds additional features to it.
+
+
+5.What are all the IDE that can be used to write JavaScript?
+VS Code used mostly. We can also use sublimetext and atom.
+
+6.Where we can add the JavaScript in the html file? Why?
+We can add at the head and body of the html but standard is to add at the end of the body of the html file.
+if we add at the beginning the browser will start executing the js file rather executing html and causes dizzyness
+of browser.
+
+
+7.What are the different types of comments present in javascript and why it is needed?
+There are 2 types of comments : single line comment (//) , multiline comment(/* */)
+
+
+8. What is a variable in javascript?
+A variable in a name given to a memory space to hold the value or refer to the value.
+
+
+9.What are the different types that you can name a variable in javascript?
+var:  for the entire code. I can update or I can reuse or I even can declare the same variable name and assign new value to it
+let : I can update the value but I can redeclare or something
+const: I can declare once and use across the code.
+
+10.What is the default value a JavaScript variable holds?
+It holds a value called undefined.
+
+
+11. What are all the rules that needs to be followed to declare a variable?
+* A variable cannot be a reserved word or I could say a keyword. e.g: let 
+* Should be meaningful
+* Can not be start with number
+* Can not have space or highfen (-)
+* Should be camelCase
+* It is case sensitive
+
+12.What are the different types of types i.e datatypes in javascript?
+* primitive types: string, number, boolean, undefined, null
+* dynamic types/ Reference types: object, Array, functions
+
+13.Where we use the typeof operator?
+We use this operator to check the datatype of the variable.
+
+
+14.How to read and change the property/value of a object?
+We can change and read the properties using the dot operator and sqare brackets.
+
+
+15. What are arrays and give example.
+An array is a sequence of values stored inside the sqare brackets and index can be used to access the values of array.
+It is dynamic and can be assigned value using index and index starts from zero.
+The typeOf the array is object.
+e.g : let selectColors = ["red","blue",1]
+
+16. What is the keyword length used for?
+The keyword length used to measure the length of the array and counting starts from 1. 
+
+
+17. What is a function and define parameter and agrument of function.
+A function is a piece of code written to perform task or calculate values and return values.
+Parameter is a value taken as a input from a function.
+Agrument is the value provided to the function from the calling line.
+
+18.What are the different types of operators and give example
+* arithmetic operators : + , - , * , / , %, ** , ++ , --
+* assignment operator : = , += , -=  , *= , /= , %/
+* comparison operator : > , <  , >= , <= ,!= , === , !==
+* eqity operator: == 
+* ternary operator : varibale = condition? true_value :  false_value
+* logical operator: && , || , !
+* bitwise operator: & , | ,
+
+19. Whar are falsy values?
+undefined, null ,'' ,"" , 0 , NaN
+
+20. Write syntax of if-else, switch, different types of loops in javascript, continue and break. 
+
+
+
+21.Write program to find max of two numbers
+Check excercise folder. change the src of script to find_max_of_two.js to run.
+
+22.Write a method to find whether its landscape or portrait
+change the src of script to find_LandScape.js
+
+23. Write a code for fizzbuzz
+solution points: if number is divisible by 3 then FIZZ divisible by 5 BUZZ and divisible by both 3&5 is FIZZBUZZ
+Not divisible by 3 and 5 output number, if input is different type then not a number error
+
+
+24. Write code for demerit points
+solution points: speed limit = 70, every 5km on speed gives 1 point and if point is over 12 licence suspend. 
+Tip use the Math.floor() method.
+
+25. Write code to check EvenOrOdd of a number
+change the src of script to even_or_odd.js
+
+26. Write code to check the truthly element in the array
+remember the falsy values in the javascript
+
+27. Write code to show the properties of an object using function.
+change the src of script to show_properties.js
+
+
+28. Calcualte the sum of multiples of 3 and 5
+change the src of script to sum_of_multiples_of_3&5.js
+
+
+29.Calculate the average of grades array of a student.
+change the src of script to sum_of_multiples_of_3&5.js
+
+
+30.Print the star pattern for the limit 5 and increase one star for each row.
+change the src of script to pattern_star.js
+
+31.Print the prime number of entered limit.
+change the src of script to calculate_prime_number.js
