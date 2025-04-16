@@ -1,0 +1,15 @@
+1. What is an object?
+An object is a real-world entity or thing that has properties (attributes) and can perform actions (methods/functions).
+
+2. What is the difference between a function and method in javascript?
+A function is independent of the object and method is defined inside the object.
+
+3. What is factory function in javascript?
+A factory function is just a regular function that returns an object. It's a way to create multiple similar objects 
+without using classes or the new keyword.
+Think of it like a cookie-cutter—you pass some ingredients (parameters), and it gives you back a fresh cookie (object)!
+
+4. What is construction function in javascript?
+A constructor function is a special kind of function used to create and initialize objects. It’s usually used with the new
+keyword.
+
